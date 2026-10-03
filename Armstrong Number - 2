@@ -1,0 +1,8 @@
+N = int(input())
+S = str(N)
+lenght = len(S)
+Armstrong = ((int(S[0])) ** lenght + (int(S[1])) ** lenght + (int(S[2])) ** lenght + (int(S[3])) ** lenght) == N 
+if (Armstrong):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
