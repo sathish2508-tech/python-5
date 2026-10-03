@@ -1,0 +1,9 @@
+T = int(input())
+if (T >= 4) and (T < 12):
+    print("Good Morning")
+elif (T >= 12) and (T < 16):
+    print("Good Afternoon")
+elif (T >= 16) and (T < 20):
+    print("Good Evening")
+else:
+    print("Good Night")
