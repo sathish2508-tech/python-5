@@ -1,0 +1,6 @@
+W = int(input())
+if (W >= 100):
+    print("Box is Heavier")
+else:
+    if (W >= 30):
+        print("Box is Heavy")
