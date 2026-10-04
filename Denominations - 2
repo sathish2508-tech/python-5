@@ -1,0 +1,12 @@
+A = int(input())
+H = A // 100
+r1 = A % 100
+F = r1 // 50
+r2 = r1 % 50
+T = r2 // 10
+r3 = r2 % 10 
+o = r3 // 1 
+print("100:" + str(H))
+print("50:" + str(F))
+print("10:" + str(T))
+print("1:" + str(o))
