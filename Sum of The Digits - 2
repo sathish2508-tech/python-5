@@ -1,0 +1,12 @@
+A = input()
+n = int(A)
+lenght = len(A) - 1 
+if ((n > 0) and (n < 10)):
+    N = n
+elif ((n >= 10) and (n < 100)):
+    N = int(A[0]) + int(A[lenght])
+elif ((n >= 100) and (n < 1000)):
+    N = int(A[0]) + int(A[1]) + int(A[lenght])
+elif ((n >= 1000) and (n < 10000)):
+    N = int(A[0]) + int(A[1]) + int(A[2]) + int(A[lenght])
+print(N)
