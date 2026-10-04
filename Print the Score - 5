@@ -1,0 +1,14 @@
+D = int(input())
+score = 0
+if (D <= 50):
+    score = 3 * D 
+elif (D <= 100):
+    score = 3 * 50 + 5 * (D - 50)
+elif (D <= 200):
+    score = 3 * 50 + 5 * 50 + 6 * (D - 100)
+elif (D > 200):
+    score = 3 * 50 + 5 * 50 + 6 * 100 + 10 * (D - 200)
+Total = score
+Bonus = 100
+total_score = Total + Bonus
+print(total_score)
