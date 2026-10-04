@@ -1,0 +1,9 @@
+A = int(input())
+five_hun = A // 500
+r1 = A % 500
+fifty = r1 // 50 
+r2 = r1 % 50
+ten = r2 // 10
+r3 = r2 % 10 
+one = r3 // 1 
+print("500: " + str(five_hun) + " 50: " + str(fifty) + " 10: " + str(ten) + " 1: " + str(one))
