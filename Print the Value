@@ -1,0 +1,13 @@
+S = input()
+lenght = len(S) - 1 
+string = S[lenght]
+i = int(S[:lenght])
+if (string == "T"):
+    v1 = i * 10
+    print(v1)
+elif (string == "H"):
+    v1 = i * 100
+    print(v1)
+elif (string == "K"):
+    v1 = i * 1000
+    print(v1)
