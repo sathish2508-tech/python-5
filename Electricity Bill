@@ -1,0 +1,14 @@
+Unit = int(input())
+Bill = 0
+if (Unit < 50):
+    Bill = 2 * Unit
+elif (Unit < 150):
+    Bill = (2 * 50) + (3 * (Unit - 50))
+elif (Unit < 250):
+    Bill = (2 * 50) + (3 * 100) + (5 * (Unit - 150))
+elif (Unit >= 250):
+    Bill = (2 * 50) + (3 * 100) + (5 * 100) + (8 * (Unit - 250))
+Total = Bill
+Surcharges = Total * 0.2 
+total_bill = Total +Surcharges
+print(total_bill)
