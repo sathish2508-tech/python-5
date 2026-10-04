@@ -1,0 +1,8 @@
+D = int(input())
+Score = 0 
+if (D <= 50):
+    Score = 3 * D 
+elif (D > 50):
+    Score = 3 * 50 + 5 * (D - 50)
+Total = Score
+print(Total)
