@@ -1,0 +1,12 @@
+D = int(input())
+Score = 0
+if (D <= 20):
+    Score = 2 * D 
+elif (D <= 60):
+    Score = 2 * 20 + 4 * (D - 20)
+elif (D > 60):
+    Score = 2 * 20 + 4 * 40 + 6 * (D - 60)
+Total = Score
+Bonus = 30
+Total_Score = Total + Bonus
+print(Total_Score)
