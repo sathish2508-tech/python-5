@@ -1,0 +1,7 @@
+N = int(input())
+Y = N // 365
+r1 = N % 365
+W = r1 // 7
+r2 = r1 % 7
+D = r2 // 1 
+print(str(Y) + " " + "years" + " " + str(W) + " " + "weeks" + " " + str(D) + " " + "days")
