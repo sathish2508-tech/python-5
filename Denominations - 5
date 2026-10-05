@@ -1,0 +1,17 @@
+A = int(input())
+two_thousand = A // 2000
+r1 = A % 2000
+five_hundred = r1 // 500
+r2 = r1 % 500
+two_hundred = r2 // 200
+r3 = r2 % 200
+fifty = r3 // 50 
+r4 = r3 % 50 
+twenty = r4 // 20 
+r5 = r4 % 20 
+five = r5 // 5 
+r6 = r5 % 5 
+two = r6 // 2 
+r7 = r6 % 2 
+one = r7 // 1 
+print("2000:" + str(two_thousand) + " " + "500:" + str(five_hundred) + " " + "200:" + str(two_hundred) + " " + "50:" + str(fifty) + " " + "20:" + str(twenty) + " " + "5:" + str(five) + " " + "2:" + str(two) + " " + "1:" + str(one))
