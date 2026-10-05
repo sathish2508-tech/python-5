@@ -1,0 +1,4 @@
+N = input()
+lenght = len(N) - 1
+D = int(N[lenght])
+print(D)
