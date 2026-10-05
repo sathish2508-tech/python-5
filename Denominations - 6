@@ -1,0 +1,21 @@
+N = int(input())
+thousand = N // 1000
+r1 = N % 1000
+five_hundrad = r1 // 500
+r2 = r1 % 500
+hundrad = r2 // 100
+r3 = r2 % 100 
+fifty = r3 // 50 
+r4 = r3 % 50 
+twenty = r4 // 20
+r5 = r4 % 20
+five = r5 // 5 
+r6 = r5 % 5 
+one = r6 // 1 
+print("1000:" + str(thousand))
+print("500:" + str(five_hundrad))
+print("100:" + str(hundrad))
+print("50:" + str(fifty))
+print("20:" + str(twenty))
+print("5:" + str(five))
+print("1:" + str(one))
