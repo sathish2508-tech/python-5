@@ -1,0 +1,8 @@
+A = int(input())
+B = int(input())
+D = A - B 
+if D > 0:
+    print(D)
+else:
+    D = -D
+    print(D)
