@@ -1,0 +1,32 @@
+D = input()
+N = int(input())
+if D == "Sunday":
+    day = 0
+elif D == "Monday":
+    day = 1 
+elif D == "Tuesday":
+    day = 2
+elif D == "Wednesday":
+    day = 3
+elif D == "Thursday":
+    day = 4
+elif D == "Friday":
+    day = 5
+elif D == "Saturday":
+    day = 6
+target_day = day + N - 1
+target = target_day % 7
+if target == 0:
+    print("Sunday")
+elif target == 1:
+    print("Monday")
+elif target == 2:
+    print("Tuesday")
+elif target == 3:
+    print("Wednesday")
+elif target == 4:
+    print("Thursday")
+elif target == 5:
+    print("Friday")
+elif target == 6:
+    print("Saturday")
