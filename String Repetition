@@ -1,0 +1,4 @@
+S = input()
+N = int(input())
+R = (S + " ") * N 
+print(R)
