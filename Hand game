@@ -1,0 +1,20 @@
+Ab = input()
+An = input()
+if (Ab == "Rock") and (An == "Paper"):
+    print("Anjali Wins")
+elif (Ab == "Scissors") and (An == "Rock"):
+    print("Anjali Wins")
+elif (Ab == "Paper") and (An == "Scissors"):
+    print("Anjali Wins")
+elif (Ab == "Rock") and (An == "Rock"):
+    print("Tie")
+elif (Ab == "Paper") and (An == "Paper"):
+    print("Tie")
+elif (Ab == "Scissors") and (An == "Scissors"):
+    print("Tie")
+elif (Ab == "Paper") and (An == "Rock"):
+    print("Abhinav Wins")
+elif (Ab == "Rock") and (An == "Scissors"):
+    print("Abhinav Wins")
+elif (Ab == "Scissors") and (An == "Paper"):
+    print("Abhinav Wins")
